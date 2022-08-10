@@ -1,0 +1,12 @@
+USE db_rh;
+
+CREATE TABLE tb_colaborador(
+id BIGINT(5) AUTO_INCREMENT,
+nome VARCHAR(20) NOT NULL,
+idade VARCHAR(3) NOT NULL,
+email VARCHAR(20) NOT NULL,
+telefone VARCHAR(20) NOT NULL,
+salario VARCHAR(7) NOT NULL,
+PRIMARY KEY (id)
+
+);
