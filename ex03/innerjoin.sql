@@ -1,0 +1,1 @@
+SELECT * FROM tb_personagem INNER JOIN tb_classes;
